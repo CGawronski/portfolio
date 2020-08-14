@@ -11,7 +11,7 @@ const WinePassHeader = (props) => {
             <br />
             <p className="m-0">
               Using only CSS Grid and Flexbox to create a site with some
-              beautifully laid-out sections.{" "}
+              beautifully laid out sections.{" "}
             </p>
             <br />
             <p>
