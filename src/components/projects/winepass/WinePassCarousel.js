@@ -1,43 +1,43 @@
 import React from "react";
 import { UncontrolledCarousel } from "reactstrap";
 
-import viewTicket from "../../../assets/debuggin-assets/db-view-ticket.png";
-import signIn from "../../../assets/debuggin-assets/db-sign-in.png";
-import newBug from "../../../assets/debuggin-assets/db-new-bug.png";
-import closeTicket from "../../../assets/debuggin-assets/db-close-ticket.png";
-import home from "../../../assets/debuggin-assets/db-home.png";
+import winepass1 from "../../../assets/winepass-assets/winepass_1.png";
+import winepass2 from "../../../assets/winepass-assets/winepass_2.png";
+import winepass3 from "../../../assets/winepass-assets/winepass_3.png";
+import winepass4 from "../../../assets/winepass-assets/winepass_4.png";
+import winepass5 from "../../../assets/winepass-assets/winepass_5.png";
 
 const items = [
   {
-    src: home,
+    src: winepass1,
     altText: "Debuggin' app screenshot 1",
     caption: "",
     header: "",
     key: "1",
   },
   {
-    src: signIn,
+    src: winepass2,
     altText: "Debuggin' app screenshot 2",
     caption: "",
     header: "",
     key: "2",
   },
   {
-    src: viewTicket,
+    src: winepass3,
     altText: "Debuggin' app screenshot 3",
     caption: "",
     header: "",
     key: "3",
   },
   {
-    src: newBug,
+    src: winepass4,
     altText: "Debuggin' app screenshot 4",
     caption: "",
     header: "",
     key: "3",
   },
   {
-    src: closeTicket,
+    src: winepass5,
     altText: "Debuggin' app screenshot 4",
     caption: "",
     header: "",
@@ -45,10 +45,10 @@ const items = [
   },
 ];
 
-const DebugginCarousel = () => (
+const WinePassCarousel = () => (
   <>
     <UncontrolledCarousel className="mb-5" items={items} />
   </>
 );
 
-export default DebugginCarousel;
+export default WinePassCarousel;
