@@ -12,7 +12,7 @@ const DebugginHeader = (props) => {
             <p className="m-0">
               A helpdesk ticket-tracking app for submitting software bugs and
               other issues. Created with React, Redux, Redux-Form, React
-              Bootstrap, and Styled Components.{" "}
+              Bootstrap, Styled Components and Google OAuth 2.0 for signing in.{" "}
             </p>
             <br />
             <p>
