@@ -1,15 +1,21 @@
 import React from "react";
 
-import DebugginCarousel from "./debuggin/DebugginCarousel";
 import DebugginHeader from "./debuggin/DebugginHeader";
-import WinePassCarousel from "./winepass/WinePassCarousel";
+import DebugginCarousel from "./debuggin/DebugginCarousel";
+
 import WinePassHeader from "./winepass/WinePassHeader";
+import WinePassCarousel from "./winepass/WinePassCarousel";
+
+import OscarsHeader from "./the-oscars/OscarsHeader";
+import OscarsCarousel from "./the-oscars/OscarsCarousel";
 
 const Projects = () => {
   return (
     <div>
       <DebugginHeader />
       <DebugginCarousel />
+      <OscarsHeader />
+      <OscarsCarousel />
       <WinePassHeader />
       <WinePassCarousel />
     </div>

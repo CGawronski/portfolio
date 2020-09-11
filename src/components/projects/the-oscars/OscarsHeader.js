@@ -1,37 +1,44 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
-const WinePassHeader = (props) => {
+const OscarsHeader = (props) => {
   return (
     <>
       <Container className="pt-4  mb-4  project-description">
         <Row>
           <Col md="7" className="pl-1">
-            <h3>WinePass</h3>
+            <h3>The Oscars</h3>
             <br />
             <p className="m-0">
-              Using only CSS Grid and Flexbox to create a landing page with some
-              beautifully laid out sections.{" "}
+              Connects with the{" "}
+              <a
+                className="light-anchor"
+                href="http://www.omdbapi.com/"
+                target="_blank"
+                rel="noopener noreferrer">
+                OMDb API
+              </a>{" "}
+              to allow users to search for and nominate their favourite films.{" "}
             </p>
             <br />
             <p>
-              View the live page here:{" "}
+              View the live app here:{" "}
               <a
                 className="light-anchor"
-                href="https://winepass.herokuapp.com/home.html"
+                href="https://the-oscars.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer">
-                WinePass
+                The Oscars
               </a>{" "}
             </p>
             <p>
               View the source code here:{" "}
               <a
                 className="light-anchor"
-                href="https://github.com/CGawronski/winepass"
+                href="https://github.com/CGawronski/the-oscars"
                 target="_blank"
                 rel="noopener noreferrer">
-                https://github.com/CGawronski/winepass
+                https://github.com/CGawronski/the-oscars
               </a>{" "}
             </p>
           </Col>
@@ -40,4 +47,4 @@ const WinePassHeader = (props) => {
     </>
   );
 };
-export default WinePassHeader;
+export default OscarsHeader;
